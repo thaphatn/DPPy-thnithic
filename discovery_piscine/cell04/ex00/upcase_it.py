@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-word = str(input("Give me a word: "))
-upcase = word.upper()
+word = input("Give me a word: ")
 
-print(upcase)
+print(word.upper())
