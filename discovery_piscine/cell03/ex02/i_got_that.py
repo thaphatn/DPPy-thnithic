@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
+greet_ing = input("What you gotta say? : ")
 
-greet_ing = str(input("What you gotta say? : "))
 while True:
 
-    greet_ing = str(input("I got that! Anything else?  "))
 
     if greet_ing == "STOP":
     
         break
 
     elif greet_ing != "STOP":
-       input("I got that! Anything else? : ")
+       greet_ing = input("I got that! Anything else? : ")
+       
+       continue
