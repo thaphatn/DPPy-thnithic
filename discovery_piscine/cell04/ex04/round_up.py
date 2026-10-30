@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-import math
-
 num = float(input("Give me a number: "))
 
-print(math.ceil(num))
+if num > int(num):
+    print(int(num) + 1)
+else:
+    print(int(num))
